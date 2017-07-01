@@ -23,5 +23,3 @@ int Board::main() {
     std::cout << "Hello World\n";
     return 0;
 }
-
-//test
