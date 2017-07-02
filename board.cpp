@@ -24,7 +24,7 @@ Board::Board() {
 
 void Board::printboard() {
     std::cout << "Printing board...\n";
-    for (int j=HEIGHT; j>0; j--) {
+    for (int j=HEIGHT-1; j>=0; j--) {
         for (int i=0; i<WIDTH; i++) {
             std::cout << "["+std::to_string(blocks[i][j])+"]";
         }
